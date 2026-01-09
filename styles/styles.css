@@ -204,3 +204,51 @@ color: #001931;
     padding: 16.59px 15.54px 16.4px 15.46px;
 }
 
+/* skill banner */
+#brain{
+margin: 120px;
+background-color: #FFFFFF;
+border: 1px solid black;
+}
+
+#brain .brain-section{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1360px;
+}
+#brain .brain-section .skill{
+    margin: 102px 0px 102px 0px;
+    gap: 16px;
+}
+#brain .brain-section .skill h4{
+    font-weight: 500;
+    line-height: 20PX;
+    text-align: left top;
+    color: #469165;
+    margin-bottom: 16px;
+}
+#brain .brain-section .skill h1{
+    line-height:auto;
+    font-weight: bold;
+    text-align: left top;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#brain .brain-section .skill p{
+    margin-bottom: 40px;
+    line-height: 20px;
+    color: #627382;
+}
+#brain .brain-section .skill ul li{
+    color: #001931;
+    gap: 16px;
+    margin-bottom: 16px;
+    list-style-image: url("../assets/CheckCircle.png");
+    list-style-position: inside;
+
+}
+#brain .brain-section .skill li{
+    vertical-align: middle;
+}
