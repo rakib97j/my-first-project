@@ -19,10 +19,14 @@
     border-radius: 4px;
     padding: 12px 16px;
     cursor: pointer;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
  }
+ 
+.btn:hover{
+    background-color: #627382;
+}
 
 /* spaical style */
 header {
@@ -88,7 +92,11 @@ nav .manu{
  max-width: 700px;
  }
 
-
+.main-head , .second-head{
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
 
  #banner .content .heading{
     line-height: 50px;
@@ -103,31 +111,31 @@ nav .manu{
     background-color: #FFFFFF;
     color: #30B868;
     cursor: pointer;
+    display: inline-flex;
 }
 
 #banner .content .buttons{
     gap: 16px;
 }
 #banner .content .buttons .btn-2{
-    padding: 16px 12px;
+    padding: 16px 10px;
     border-radius: 4px;
     border: 2px solid #FFFFFF;
     background-color: #ffffff00;
     color: #FFFFFF;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 #banner .content .buttons .btn-3{
     border: none;
     background-color: #469165;
     color: #FFFFFF;
     border-radius: 4px;
-    padding:16px 12px;
+    padding:16px 10px;
     cursor: pointer;
-    display: flex;
+    display: inline-flex;
+    gap: 10px;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 #banner .content .buttons .btn-3 img{
     justify-content: center;
@@ -178,7 +186,6 @@ color: #627382;
 .card-box{
     display: flex;
     gap: 24px;
-    width: 80%;
     max-width: 1360px;
     margin: 0 auto;
     
@@ -212,7 +219,14 @@ color: #001931;
     border-radius: 60px;
     padding: 16.59px 15.54px 16.4px 15.46px;
 }
-
+#card-section .card-heading p{
+    padding-bottom:44px;
+}
+#card-section .card-heading h1{
+/* margin-bottom: 0px; */
+text-align: bottom;
+font-size: 55px;
+}
 /* skill banner */
 #brain{
 margin: 120px;
@@ -258,6 +272,10 @@ background-color: #FFFFFF;
     list-style-position: inside;
 
 }
+  /* #brain .skill{
+    justify-content: center;
+    align-items: center;
+} */
 #brain .brain-section .skill li{
     vertical-align: middle;
 }
@@ -292,6 +310,10 @@ margin-top: 16px;
 #extra-banner .secondary-banner .banner-style .btn{
     margin-bottom: 16px;
 }
+.secondary-button{
+    display: flex;
+    justify-content: center;
+}
 .secondary-button .btn{
     padding: 12px 16px;
     display: flex;
@@ -299,4 +321,51 @@ margin-top: 16px;
     justify-content: center;
     gap: 10px;
 
+}
+
+#footer{
+padding: 120px 120px 30px 120px;
+background-color: #001931;
+
+}
+
+#footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-content ul{
+    display: flex;
+}
+
+#footer .footer-content ul li{
+    list-style: none;
+
+
+}
+#footer .footer-content ul li img{
+    width: 20px;
+    gap: 16px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 16px;
+    border: none;
+    border-radius: 1000px;
+}
+#footer .footer-content .copyright hr{
+    color: #E5E7EB;
+    margin-bottom: 30px;
+}
+#footer .copyright hr{
+    color: #E5E7EB;
+}
+
+#footer .copyright{
+color: #FAFAFA;
+border-top: 2px solid #E5E7EB;
+text-align: center;
+padding-top: 30px;
+}
+.footer-content{
+    padding-bottom: 80px;
 }
