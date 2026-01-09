@@ -48,14 +48,94 @@ nav .manu{
     font-size: 16px;
     font-weight: 500;
 }
-
+ /* banner section  */
 #banner{
     background-image: url("../assets/hero-bg.png");
-    height: 771px;
+    /* height: 771px; */
     background-repeat: no-repeat;
     background-size: cover;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 120px 134px 120px;
+    
 }
+
+ #banner .content{
+    text-align: center;
+    
+ }
+
+ #banner .content .heading .main-head{
+    font-weight: 72px;
+    /* line-height: 84px; */
+    align-items: top;
+    column-gap: 16px;
+    color: #FFFFFF;
+    margin: 16px 0px;
+ }
+
+ #banner .content .heading .second-head{
+    color: #30B868;
+ }
+ #banner .content .heading p{
+ color: #FFFFFF;
+ line-height: 24px;
+ margin-bottom: 32px;
+ max-width: 700px;
+ }
+
+
+
+ #banner .content .heading{
+    line-height: 50px;
+    font-weight: bold;
+ }
+
+#banner  .content .btn-esrly-acc{
+    padding: 12PX 8PX;
+    gap: 6PX;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    cursor: pointer;
+}
+
+#banner .content .buttons{
+    gap: 16px;
+}
+#banner .content .buttons .btn-2{
+    padding: 16px 12px;
+    border-radius: 4px;
+    border: 2px solid #FFFFFF;
+    background-color: #ffffff00;
+    color: #FFFFFF;
+}
+#banner .content .buttons .btn-3{
+    border: none;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding:16px 12px;
+    cursor: pointer;
+}
+#banner .content .buttons .btn-3 img{
+    justify-content: center;
+    gap: 10px;
+}
+/* #banner .content .buttons .btn-2 img{
+    width: 20px;
+    gap: 10px;
+    color: #FFFFFF;
+} */
+    
+
+/* #banner  .content .btn-esrly-acc img{
+    width: 16px;
+    gap: 6px;
+    justify-content: center;
+} */
 
 
 /* card section  */
@@ -64,6 +144,8 @@ nav .manu{
 color: #001931;
 font-weight: bold;
 margin: auto;
+text-align: top left;
+line-height: 100px;
 }
 #card-section .card-container .card-heading p{
 color: #627382;
@@ -80,8 +162,8 @@ color: #627382;
 }
 
 .card-container .card{
-    /* width: 80%; */
-    /* max-width: 1360px; */
+    width: 80%;
+    max-width: 1360px;
 }
 
 .card-box{
