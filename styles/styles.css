@@ -103,6 +103,10 @@ nav .manu{
     font-weight: bold;
  }
 
+#banner  .content .btn-esrly-acc:hover{
+background: #627382;
+} 
+
 #banner  .content .btn-esrly-acc{
     padding: 12PX 8PX;
     gap: 6PX;
@@ -116,6 +120,12 @@ nav .manu{
 
 #banner .content .buttons{
     gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .content .buttons .btn-2:hover{
+    background: #627382;
 }
 #banner .content .buttons .btn-2{
     padding: 16px 10px;
@@ -123,6 +133,7 @@ nav .manu{
     border: 2px solid #FFFFFF;
     background-color: #ffffff00;
     color: #FFFFFF;
+    cursor: pointer;
 }
 #banner .content .buttons .btn-3{
     border: none;
@@ -133,26 +144,15 @@ nav .manu{
     cursor: pointer;
     display: inline-flex;
     gap: 10px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+}
+#banner .content .buttons .btn-3:hover{
+    background: transparent;
+    border: 1px solid white;
 }
 #banner .content .buttons .btn-3 img{
     justify-content: center;
     gap: 10px;
 }
-/* #banner .content .buttons .btn-2 img{
-    width: 20px;
-    gap: 10px;
-    color: #FFFFFF;
-} */
-    
-
-/* #banner  .content .btn-esrly-acc img{
-    width: 16px;
-    gap: 6px;
-    justify-content: center;
-} */
 
 
 /* card section  */
@@ -258,6 +258,7 @@ background-color: #FFFFFF;
     text-align: left top;
     color: #001931;
     margin-bottom: 16px;
+    font-size: 45px;
 }
 #brain .brain-section .skill p{
     margin-bottom: 40px;
@@ -356,9 +357,7 @@ background-color: #001931;
     color: #E5E7EB;
     margin-bottom: 30px;
 }
-#footer .copyright hr{
-    color: #E5E7EB;
-}
+
 
 #footer .copyright{
 color: #FAFAFA;
@@ -367,5 +366,5 @@ text-align: center;
 padding-top: 30px;
 }
 .footer-content{
-    padding-bottom: 80px;
+    padding-bottom: 80px;   
 }
