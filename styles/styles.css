@@ -27,8 +27,8 @@ header {
     padding-top: 16px;
 }
 
-nav{
-    width: 79%;
+nav {
+    width: 80%;
     max-width: 1360px;
     margin: 0px auto;
     display: flex;
@@ -47,5 +47,78 @@ nav .manu{
     color: #000000;
     font-size: 16px;
     font-weight: 500;
+}
+
+#banner{
+    background-image: url("../assets/hero-bg.png");
+    height: 771px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* card section  */
+
+#card-section .card-container .card-heading h1{
+color: #001931;
+font-weight: bold;
+margin: auto;
+}
+#card-section .card-container .card-heading p{
+color: #627382;
+}
+
+#card-section{
+    margin: 0PX 120PX 120PX 120PX;
+    text-transform: capitalize;
+}
+
+#card-section .card-container{
+    padding-top: 0px;
+    text-align: center;
+}
+
+.card-container .card{
+    /* width: 80%; */
+    /* max-width: 1360px; */
+}
+
+.card-box{
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    
+}
+.card-box .card{
+/* border: 1px solid; */
+border-radius: 8px;
+padding: 24px;
+text-align: center;
+/* height: 322px; */
+/* width: 300px; */
+background-color: #ffffff;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 6%);
+border: none;
+}
+
+.card-box .card h3{
+padding:16px;
+font-weight: 600;
+color: #001931;
+}
+.card-box .card p{
+    line-height: 20px;
+    color: #627382;
+}
+.card-box .card img{
+    background-color: #F95555;
+    color: #FFFFFF;
+    width: 60px;
+    border: none;
+    border-radius: 60px;
+    padding: 16.59px 15.54px 16.4px 15.46px;
 }
 
